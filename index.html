@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="reset.css">
+    <title>encriptador</title>
+</head>
+<body>
+
+  <div id="conteiner">
+
+      <header> 
+          <h1 id="titulo">  encriptador </h1>    
+      </header>      
+              <nav>
+              <ul>
+                <li>
+                  <a  id="reiniciar"  href="index.html"> reiniciar</a>
+                </li>
+              </ul>
+            </nav>
+   <div class="clearfix"></div>
+
+    <main>
+
+      <section>
+        <textarea class="transcripcion"  cols="40" rows="6" placeholder="ingresa tu texto"></textarea >
+     
+        <div class="botones">
+            <button id="encriptar"  onclick="btnEncripctar()"> encriptar           </button>
+        
+            <button id="desencriptar"  onclick="btnDesencriptar()"> desencriptar           </button>
+
+        </div>
+     </section> 
+        
+       <section>
+           <textarea class="mensaje" cols="40" rows="6" placeholder="texto encriptado"></textarea>
+
+            <button id="copiar"  onclick="copiar()"> copiar </button>
+        </section>
+
+    </main>
+
+    
+
+    <footer>
+      encriptador  alura 2022
+       <p>© Copyright <a href="https://www.linkedin.com/in/mauricio-nuñez-a4311b6a/">mauricio nuñez</a></p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+  </div>
+
+
+   
+
+  
+
+  
+</body>
+</html>
