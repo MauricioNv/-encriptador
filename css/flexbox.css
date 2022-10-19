@@ -1,0 +1,88 @@
+ .headerPrincipal {
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .encripatador {
+   display: flex;
+   justify-content: space-evenly;
+   gap: 15px;
+ }
+
+ .seccion__patrocinadores {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 70%;
+   margin-right: 5%;
+ }
+
+ .seccion__patrocinadores .contenedor__patrocinadores {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .seccion__patrocinadores .lista__patrocinadores {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-right: 5%;
+
+ }
+
+ .rodapePrincipal-patrocinadores .container {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .rodapePrincipal-patrocinadores-list {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 70%;
+   margin-right: 5%;
+ }
+
+ .rodapePrincipal-contatoForm {
+   width: 25%;
+ }
+
+ @media (max-width : 740px) {
+
+   .headerPrincipal {
+    display: block;
+    padding: 20px;
+    }
+  
+   .encripatador {
+     width: 100%;
+     display: block;
+     
+
+   }
+     .rodapePrincipal-patrocinadores .container {
+      flex-direction: column;
+  }
+
+  .rodapePrincipal-contatoForm {     
+      flex-direction: column;
+  }
+
+  .rodapePrincipal-patrocinadores-list {
+     display: block;
+     justify-content: space-between;
+  }
+  .fieldset {
+    display: block;
+  }
+
+  
+
+   
+   }
+
+
+
+
+
+ }

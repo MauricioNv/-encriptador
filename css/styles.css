@@ -1,0 +1,125 @@
+body {
+  	font-family: 'Open Sans',Arial,sans-serif;
+    background: linear-gradient(90deg, rgb(156, 213, 244), rgb(80, 247, 172));    
+         
+  }
+.contenedor__principal {    
+   width: auto;
+  display: block;   
+} 
+.headerPrincipal {		 
+  display: block;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.headerPrincipal-titulo {
+	font-weight:lighter;
+	font-size: 2em;
+	margin-bottom: 20px;  
+}
+.headerPrincipal-nav-link  {
+	padding: 10px;
+	margin-bottom: 10px;
+  margin-inline: 15px;
+	color: #9799A6;   
+	background-color: #FFF;
+	text-decoration: none;
+	transition: .5s;
+	border-bottom: 1px solid #9799A6;
+  border-radius: 20%;
+} 
+.encripatador{
+  display: block;
+  align-items:center;
+  margin-top: 15px;
+  padding-top: 30px;
+}
+.botones{
+   padding-left: 90px;
+}
+
+.transcripcion {
+  background: linear-gradient(90deg, rgb(156, 213, 244), rgb(80, 247, 172));
+   font-size: 18px;
+  border-radius: 20px;
+}
+ .mensaje{   
+  font-size: 18px;   
+  background: linear-gradient(90deg, rgb(156, 213, 244), rgb(80, 247, 172));
+  border-radius: 20px
+} 
+.placeholder {
+  color: #000000;
+  font-family: "Verdana", sans-serif;
+}
+
+.seccion__patrocinadores {
+  margin-top: 30px;
+  background: linear-gradient(90deg, rgb(156, 213, 244), rgb(80, 247, 172));
+  padding: 20px 0;
+}
+ 
+#encriptar, #desencriptar , #copiar {  
+  margin: 2px;   
+  font-size: 18px;   
+  color:white;
+  background: orange;
+  border-radius: 20px; 
+}
+.rodapePrincipal {
+	background-color: #324C64;
+	padding-top: 20px;
+}
+
+.rodapePrincipal .subtitulo {
+	color: #FFF;
+}
+
+.rodapePrincipal-patrocinadores {
+	margin-top: 30px;
+	 
+	padding: 20px 0;
+}
+
+.rodapePrincipal-contatoForm {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.rodapePrincipal-contatoForm label[for=email-contato] {
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.rodapePrincipal-contatoForm-emailInput {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 10px;
+}
+
+.rodapePrincipal-contatoForm-submit {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	 
+	cursor: pointer;
+	
+}
+
+.rodapePrincipal-contatoForm-submit,
+.rodapePrincipal-contatoForm-emailInput {
+	outline: 0;
+	border: 1px solid #4DBA7A;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+ 
+ 
+ 
+
+
+
+
+ 
