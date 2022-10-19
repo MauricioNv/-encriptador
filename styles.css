@@ -1,108 +1,125 @@
-html {
-padding: 0;
-margin: 0;
-min-height: 100%;
-position: relative;
-}
-
 body {
-  background: linear-gradient( 90deg, rgb(156, 213, 244),  rgb(80, 247, 172)) ;
-  font-family: "Verdana", sans-serif;
-  width: 100%;  
+  	font-family: 'Open Sans',Arial,sans-serif;
+    background: linear-gradient(90deg, rgb(156, 213, 244), rgb(80, 247, 172));    
+         
   }
-
-#conteiner {
-  width: 100%;    
- }
-
-header{
-  background-color: rgb(212, 239, 90);
-  text-align: center;
-  width: auto;
-  height: 50px;
+.contenedor__principal {    
+   width: auto;
+  display: block;   
+} 
+.headerPrincipal {		 
+  display: block;
+  align-items: center;
+  margin-bottom: 5px;
 }
-#titulo{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- font-size: 35px;
- font-weight: bolder;
+.headerPrincipal-titulo {
+	font-weight:lighter;
+	font-size: 2em;
+	margin-bottom: 20px;  
 }
-nav {
-  width: auto;
-  background:lightsalmon ;  
-  height: 50px;
-  border: 1px solid black;
- 
+.headerPrincipal-nav-link  {
+	padding: 10px;
+	margin-bottom: 10px;
+  margin-inline: 15px;
+	color: #9799A6;   
+	background-color: #FFF;
+	text-decoration: none;
+	transition: .5s;
+	border-bottom: 1px solid #9799A6;
+  border-radius: 20%;
+} 
+.encripatador{
+  display: block;
+  align-items:center;
+  margin-top: 15px;
+  padding-top: 30px;
 }
-
-nav ul li {
-  width: auto;
-  list-style: none;
-  font-family: fantasy;
-  text-align: center;
-  font-size: x-large;
-
-}
-.clearfix {
-clear: both;
-}
-
-main {
-width: 100%;
-display: flex;
-margin-left: 80px;
-margin-bottom: 30px;
-margin-top: 5%;
+.botones{
+   padding-left: 90px;
 }
 
-.transcripcion{
-  background: linear-gradient( 90deg, rgb(156, 213, 244),  rgb(80, 247, 172)) ;
-  width:60%;
-  resize: none ;
-  font-size: 32px;  
+.transcripcion {
+  background: linear-gradient(90deg, rgb(156, 213, 244), rgb(80, 247, 172));
+   font-size: 18px;
   border-radius: 20px;
 }
-
-
-.mensaje{
-resize: none ;
-font-size: 32px;
-width:60% ;
-height: 60%;
- background:linear-gradient( 90deg, rgb(156, 213, 244),  rgb(80, 247, 172)) ;
-border-radius: 20px;
-}
-
-::placeholder {
+ .mensaje{   
+  font-size: 18px;   
+  background: linear-gradient(90deg, rgb(156, 213, 244), rgb(80, 247, 172));
+  border-radius: 20px
+} 
+.placeholder {
   color: #000000;
   font-family: "Verdana", sans-serif;
 }
 
-#encriptar, #desencriptar , #copiar {
-    width: 50%;
-    margin: 2px;
-    padding: 15px 0;
-    font-size: 18px;
-    font-weight: bold;
-    color:white;
-    background: orange;
-    border:none;
-    border-radius: 50%;
-    transition: 1s all;
-    cursor:pointer;
+.seccion__patrocinadores {
+  margin-top: 30px;
+  background: linear-gradient(90deg, rgb(156, 213, 244), rgb(80, 247, 172));
+  padding: 20px 0;
+}
+ 
+#encriptar, #desencriptar , #copiar {  
+  margin: 2px;   
+  font-size: 18px;   
+  color:white;
+  background: orange;
+  border-radius: 20px; 
+}
+.rodapePrincipal {
+	background-color: #324C64;
+	padding-top: 20px;
 }
 
-.encriptar:hover{
-    background: darkorange;
-    transform: scale(1.2);
+.rodapePrincipal .subtitulo {
+	color: #FFF;
 }
 
-
-
-footer {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  bottom: 0;
-  border: 1px solid black;
-
+.rodapePrincipal-patrocinadores {
+	margin-top: 30px;
+	 
+	padding: 20px 0;
 }
+
+.rodapePrincipal-contatoForm {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.rodapePrincipal-contatoForm label[for=email-contato] {
+	font-weight: bold;
+	font-size: 14px;
+	color: #000;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.rodapePrincipal-contatoForm-emailInput {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 10px;
+}
+
+.rodapePrincipal-contatoForm-submit {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	 
+	cursor: pointer;
+	
+}
+
+.rodapePrincipal-contatoForm-submit,
+.rodapePrincipal-contatoForm-emailInput {
+	outline: 0;
+	border: 1px solid #4DBA7A;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+ 
+ 
+ 
+
+
+
+
+ 
