@@ -1,68 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
   <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="styles.css"/>
-    <link rel="stylesheet" href="reset.css">
-    <title>encriptador</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/flexbox.css">
+  <title>encriptador</title>
 </head>
+
 <body>
 
-  <div id="conteiner">
+  <header class="headerPrincipal">
 
-      <header> 
-          <h1 id="titulo">  encriptador </h1>    
-      </header>      
-              <nav>
-              <ul>
-                <li>
-                  <a  id="reiniciar"  href="index.html"> reiniciar</a>
-                </li>
-              </ul>
-            </nav>
-   <div class="clearfix"></div>
+    <div class="contenedor__headerPrincipal">
+      <h1 class="headerPrincipal-titulo">
+        Encripatador
+      </h1>
 
-    <main>
+      <nav class="headerPrincipal-nav">
+        <a class="headerPrincipal-nav-link" href="index.html">Home</a>
+        <a class="headerPrincipal-nav-link" href="https://www.linkedin.com/in/mauricio-nuñez-a4311b6a/">perfil</a>
 
-      <section>
-        <textarea class="transcripcion"  cols="40" rows="6" placeholder="ingresa tu texto"></textarea >
-     
+      </nav>
+    </div>
+
+  </header>
+
+  <main>
+
+    <div class="encripatador">
+
+      <div class="contenedor__transcricpcion">
+
+        <textarea class="transcripcion" cols="30" rows="15" placeholder="ingresa tu texto"></textarea>
+
         <div class="botones">
-            <button id="encriptar"  onclick="btnEncripctar()"> encriptar           </button>
-        
-            <button id="desencriptar"  onclick="btnDesencriptar()"> desencriptar           </button>
+
+          <button id="encriptar" onclick="btnEncripctar()"> encriptar </button>
 
         </div>
-     </section> 
-        
-       <section>
-           <textarea class="mensaje" cols="40" rows="6" placeholder="texto encriptado"></textarea>
 
-            <button id="copiar"  onclick="copiar()"> copiar </button>
-        </section>
-
-    </main>
-
-    
-
-    <footer>
-      encriptador  alura 2022
-       <p>© Copyright <a href="https://www.linkedin.com/in/mauricio-nuñez-a4311b6a/">mauricio nuñez</a></p>
       </div>
-    </footer>
 
-    <script src="script.js"></script>
+      <div class="contenedor__mensaje">
+
+        <textarea class="mensaje" cols="30" rows="15" placeholder="texto encriptado"></textarea>
+
+        <div class="botones">
+          <button id="copiar" onclick="copiar()"> copiar </button>
+
+          <button id="desencriptar" onclick="btnDesencriptar()"> desencriptar </button>
+        </div>
+
+      </div>
 
 
-  </div>
+    </div>
 
 
-   
+  </main>
 
-  
 
-  
+
+  <section class="rodapePrincipal-patrocinadores">
+    <div class="container">
+      <ul class="rodapePrincipal-patrocinadores-list">
+        <li>
+          <a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-alura" href="#">
+            <img src="logos/alura.svg" alt="Logo da Alura">
+          </a>
+        </li>
+        <li>
+          <a class="rodapePrincipal-patrocinadores-list-link patrocinadores-list-link-caelum" href="#">
+            <img src="logos/caelum.svg" alt="Logo da Caelum">
+          </a>
+        </li>
+        <li>
+          <p> encriptador 2022 © Copyright <a href="https://www.linkedin.com/in/mauricio-nuñez-a4311b6a/">mauricio
+              nuñez</a></p>
+        </li>
+      </ul>
+      <form class="rodapePrincipal-contatoForm" action="#">
+        <fieldset>
+          <legend class="rodapePrincipal-contatoForm-legend" for="email-contato">Entre en contacto</legend>
+          <div class="rodapePrincipal-contatoForm-fieldset">
+            <input class="rodapePrincipal-contatoForm-emailInput" type="email" name="email-contato" id="email-contato">
+            <button class="rodapePrincipal-contatoForm-submit" type="submit">Enviar</button>
+          </div>
+        </fieldset>
+
+        <script src="script.js"></script>
+
+
+
 </body>
+
 </html>
